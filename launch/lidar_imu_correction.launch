@@ -1,0 +1,7 @@
+<launch>
+    <!-- Node to launch -->
+    <node name="lidar_imu_correction_node" pkg="lidar_imu_correction" type="lidar_imu_correction_node" output="screen" />
+
+    <!-- Load parameters from YAML file -->
+    <rosparam file="$(find lidar_imu_correction)/config/imu_lidar_params.yaml" command="load" />
+</launch>

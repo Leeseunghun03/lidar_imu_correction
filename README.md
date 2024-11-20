@@ -27,3 +27,9 @@ git clone https://github.com/Leeseunghun03/lidar_imu_correction.git
 cd ~/catkin_ws
 catkin_make
 source ~/catkin_ws/devel/setup.bash
+```
+
+## Usage
+```
+roslaunch lidar_imu_correction lidar_imu_correction.launch
+```

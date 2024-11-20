@@ -23,7 +23,7 @@ This ROS 1 package compensates for tilt in LiDAR point clouds using IMU sensor d
 Clone the repository into your ROS 1 workspace and build:
 ```bash
 cd ~/catkin_ws/src
-git clone https://github.com/yourusername/imu_lidar_tilt_compensation.git
+git clone https://github.com/Leeseunghun03/lidar_imu_correction.git
 cd ~/catkin_ws
 catkin_make
 source ~/catkin_ws/devel/setup.bash
